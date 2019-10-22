@@ -2,7 +2,6 @@
     overflow: hidden;
     background-color: #000000;
     padding: 20px 10px;
-    z-index: 100;
 }
 
 .header a {
@@ -72,8 +71,10 @@ button {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("poze/imgBack.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../poze/imgBack.jpg");
+    /* background-image: url("poze/imggg.jpg"); */
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,4 +104,10 @@ button {
 .hero-text button:hover {
     background-color: #555;
     color: white;
+}
+
+nav {
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 180px;
 }
