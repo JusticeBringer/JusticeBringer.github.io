@@ -59,7 +59,7 @@ div {
 }
 
 button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .titlu {
@@ -71,12 +71,12 @@ button {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../poze/imgBack.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../poze/peles-castle-818943.jpg"), url("../poze/imgBack.jpg");
     /* background-image: url("poze/imggg.jpg"); */
     height: 100%;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -88,26 +88,4 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-}
-
-.hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-}
-
-.hero-text button:hover {
-    background-color: #555;
-    color: white;
-}
-
-nav {
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-left: 180px;
 }
