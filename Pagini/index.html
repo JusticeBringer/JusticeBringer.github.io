@@ -6,11 +6,12 @@
 
 <head>
 
-    <link rel="stylesheet" href="Stil\style.css" type="text/css" />
-    <link rel="stylesheet" href="Stil\footer.css">
-    <link rel="stylesheet" href="Stil\poza.scss">
-    <link rel="stylesheet" href="Stil\galerie.css">
-    <link rel="stylesheet" href="Stil\butoane.css">
+    <link rel="stylesheet" href="..\Stil\style.css" type="text/css" />
+    <link rel="stylesheet" href="..\Stil\footer.css">
+    <link rel="stylesheet" href="..\Stil\poza.scss">
+    <link rel="stylesheet" href="..\Stil\galerie.css">
+    <link rel="stylesheet" href="..\Stil\butoane.css">
+    <link rel="stylesheet" href="..\Stil\header.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
 
@@ -36,13 +37,13 @@
 
     <header>
         <div class="header">
-            <a href="#default" class="logo">Turist în România</a>
+            <a href="..\Pagini\index.html" class="logo">Turist în România</a>
             <div class="header-right">
-                <a class="active" href="index.html">Acasă</a>
-                <a href="contact.html">Contact</a>
-                <a href="despre.html">Despre</a>
-                <a href="galerie.html">Galerie</a>
-                <a href="contulMeu.html">Contul meu</a>
+                <a class="active" href="..\Pagini\index.html">Acasă</a>
+                <a href="..\Pagini\contact.html">Contact</a>
+                <a href="..\Pagini\despre.html">Despre</a>
+                <a href="..\Pagini\galerie.html">Galerie</a>
+                <a href="..\Pagini\contulMeu.html">Contul meu</a>
             </div>
         </div>
     </header>
@@ -60,7 +61,7 @@
             <h1 style="font-size:70px">Turist în România</h1>
             <hr style="width: 70%; color: white;">
             <p style="font-size: 30px;">O colecție de actracții turistice</p>
-            <button class="butonFront">Află mai multe</button>
+            <a href="..\Pagini\despre.html" class="butonFront">Află mai multe</a>
         </div>
     </div>
 
@@ -72,31 +73,38 @@
         ------------------------------------------------------------------------------- Galerie --------------------------------------------
     -->
 
-    <nav>
-        <h2>
-            Palatul Parlamentului - o alta perspectiva
-        </h2>
-        <div class="gallery">
-            <a target="_blank" href="Poza1.jpg">
-                <img src="http://www.traseeromania.ro/wp-content/uploads/2016/12/Casa-Popurului-Palatul-Poporului-sau-numit-recent-Palatul-Parlamentului.jpg" alt="Palat">
-            </a>
-            <div class="desc"> Imagine de la balcon </div>
-        </div>
-
-        <div class="gallery">
-            <a target="_blank" href="Poza2.jpg">
-                <img src="http://blog.hotelguru.ro/wp-content/uploads/2015/04/Palatul-Parlamentului.jpg" alt="Palat">
-            </a>
-            <div class="desc"> Imagine frontală </div>
-        </div>
-
-        <div class="gallery">
-            <a target="_blank" href="Poza3.jpg">
-                <img src="http://metropotam.ro/mediaserver/e/y/CasaPoporului_night.jpg" alt="Palat">
-            </a>
-            <div class="desc"> Clădirea, văzută nocturn</div>
-        </div>
+    <h1 class="pentruNav"> Galerie de obiective turisitice</h1>
+    <nav class="frontNav">
+        <a href="..\Pagini\despre.html" class="butonFront">Afișează din București</a>
+        <a href="..\Pagini\despre.html" class="butonFront">Afișează din Iași</a>
+        <a href="..\Pagini\despre.html" class="butonFront">Afișează din Brașov</a>
+        <a href="..\Pagini\despre.html" class="butonFront">Afișează din Tulcea</a>
     </nav>
+
+
+    <div class="grid-container" id="buc">
+        <div class="grid-item">
+            <figure>
+                <img src="..\poze\front2.jpg" alt="Palatul-Parlamentului" width="420" height="320">
+                <figcaption class="figCaption">Imagine diurnă, frontală </figcaption>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="..\poze\front3.jpg" alt="Palatul-Parlamentului" width="420" height="320">
+                <figcaption class="figCaption">Clădirea, văzută nocturn</figcaption>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="..\poze\front.jpg" alt="Centrul-Vechi" width="420" height="320">
+                <figcaption class="figCaption">Centrul vechi</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <script>
+    </script>
 
     <!--
         ------------------------------------------------------------------------------- Galerie --------------------------------------------
