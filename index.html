@@ -71,18 +71,79 @@
 
     <!--
         ------------------------------------------------------------------------------- Galerie --------------------------------------------
+        ------------------------------------------------------------------------------- Galerie --------------------------------------------
+        ------------------------------------------------------------------------------- Galerie --------------------------------------------
+        ------------------------------------------------------------------------------- Galerie --------------------------------------------
     -->
 
     <h1 class="pentruNav"> Galerie de obiective turisitice</h1>
     <nav class="frontNav">
-        <a href="..\Pagini\despre.html" class="butonFront">Afișează din București</a>
-        <a href="..\Pagini\despre.html" class="butonFront">Afișează din Iași</a>
-        <a href="..\Pagini\despre.html" class="butonFront">Afișează din Brașov</a>
-        <a href="..\Pagini\despre.html" class="butonFront">Afișează din Tulcea</a>
+        <button onclick="myFunctionBuc()" class="butonFront">Afișează din București</button>
+        <button onclick="myFunctionIas()" class="butonFront">Afișează din Iași</button>
+        <button onclick="myFunctionBrv()" class="butonFront">Afișează din Brașov</button>
+        <button onclick="myFunctionTul()" class="butonFront">Afișează din Tulcea</button>
     </nav>
 
+    <!--
+        ------------------------------------------------------------------------------- Script Galerie --------------------------------------------
+    -->
 
-    <div class="grid-container" id="buc">
+    <script>
+        function myFunctionBuc() {
+            var x = document.getElementById("Ias");
+            x.style.display = "none";
+
+            var x = document.getElementById("Buc");
+            if (x.style.display === "none") {
+                x.style.display = "grid";
+
+            } else {
+                x.style.display = "grid";
+            }
+        }
+    </script>
+    <script>
+        function myFunctionIas() {
+            var x = document.getElementById("Buc");
+            x.style.display = "none";
+
+            var x = document.getElementById("Ias");
+            if (x.style.display === "none") {
+                x.style.display = "grid";
+
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        function myFunctionBrv() {
+            var x = document.getElementById("Brv");
+            if (x.style.display === "none") {
+                x.style.display = "grid";
+
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        function myFunctionTul() {
+            var x = document.getElementById("Tul");
+            if (x.style.display === "none") {
+                x.style.display = "grid";
+
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <!--
+        ------------------------------------------------------------------------------- Script Galerie --------------------------------------------
+    -->
+
+    <div class="grid-container" id="Buc" style="display: grid;">
         <div class="grid-item">
             <figure>
                 <img src="..\poze\front2.jpg" alt="Palatul-Parlamentului" width="420" height="320">
@@ -103,10 +164,34 @@
         </div>
     </div>
 
+    <div class="grid-container" id="Ias" style="display: none;">
+        <div class="grid-item">
+            <figure>
+                <img src="..\poze\front.jpg" alt="" width="420" height="320">
+                <figcaption class="figCaption"> </figcaption>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="..\poze\" alt="" width="420" height="320">
+                <figcaption class="figCaption"> </figcaption>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="..\poze\" alt="" width="420" height="320">
+                <figcaption class="figCaption"> </figcaption>
+            </figure>
+        </div>
+    </div>
+
     <script>
     </script>
 
     <!--
+        ------------------------------------------------------------------------------- Galerie --------------------------------------------
+        ------------------------------------------------------------------------------- Galerie --------------------------------------------
+        ------------------------------------------------------------------------------- Galerie --------------------------------------------
         ------------------------------------------------------------------------------- Galerie --------------------------------------------
     -->
 
