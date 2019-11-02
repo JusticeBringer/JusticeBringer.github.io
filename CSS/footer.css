@@ -6,7 +6,6 @@
     text-align: left;
     font: normal 16px sans-serif;
     padding: 45px 50px;
-    margin-top: 80px;
     display: block;
 }
 
@@ -54,7 +53,7 @@
 }
 
 
-/* If you don't want the footer to be responsive, remove these media queries */
+/* Footer Responsive */
 
 @media (max-width: 600px) {
     .footer-distributed .footer-left,
