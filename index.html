@@ -6,22 +6,22 @@
 
 <head>
 
-    <link rel="stylesheet" href="Stil\style.css" type="text/css" />
-    <link rel="stylesheet" href="Stil\footer.css">
-    <link rel="stylesheet" href="Stil\poza.scss">
-    <link rel="stylesheet" href="Stil\galerie.css">
-    <link rel="stylesheet" href="Stil\butoane.css">
-    <link rel="stylesheet" href="Stil\header.css">
+    <link rel="stylesheet" href="CSS\style.css" type="text/css" />
+    <link rel="stylesheet" href="CSS\footer.css">
+    <link rel="stylesheet" href="CSS\poza.scss">
+    <link rel="stylesheet" href="CSS\galerie.css">
+    <link rel="stylesheet" href="CSS\butoane.css">
+    <link rel="stylesheet" href="CSS\header.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
 
-    <link rel="shortcut icon" type="image/png" href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\poze\favvv.jpg" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Atractii turistice din Romania">
-    <meta name="keywords" content="turism, atractii turistice, obiective turistice, relaxare, vizita">
-    <meta name="author" content="Arghire Gabriel">
+    <link rel="shortcut icon " type="image/png " href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\poze\favvv.jpg " />
+    <meta charset="UTF-8 ">
+    <meta http-equiv="X-UA-Compatible " content="IE=edge ">
+    <meta name="viewport " content="width=device-width, initial-scale=1 ">
+    <meta name="description " content="Atractii turistice din Romania ">
+    <meta name="keywords " content="turism, atractii turistice, obiective turistice, relaxare, vizita ">
+    <meta name="author " content="Arghire Gabriel ">
 
     <title> Turist în România </title>
 
@@ -32,167 +32,120 @@
 
 <body>
     <!--
-        ------------------------------------------------------------------------------- Header --------------------------------------------
+        ############################################################### Header ##################################
     -->
 
     <header>
-        <div class="header">
-            <a href="index.html" class="logo">Turist în România</a>
-            <div class="header-right">
-                <a class="active" href="index.html">Acasă</a>
-                <a href="Pagini\contact.html">Contact</a>
-                <a href="Pagini\despre.html">Despre</a>
-                <a href="Pagini\galerie.html">Galerie</a>
-                <a href="Pagini\contulMeu.html">Contul meu</a>
+        <div class="header ">
+            <a href="index.html " class="logo ">Turist în România</a>
+            <div class="header-right ">
+                <a class="active " href="index.html ">Acasă</a>
+                <a href="HTML\contact.html ">Contact</a>
+                <a href="HTML\despre.html ">Despre</a>
+                <a href="HTML\galerie.html ">Galerie</a>
+                <a href="HTML\contulMeu.html ">Contul meu</a>
             </div>
         </div>
     </header>
 
     <!--
-        ------------------------------------------------------------------------------- Header --------------------------------------------
+        ############################################################### Header ##################################
     -->
 
     <!--
-        ------------------------------------------------------------------------------- Front Image --------------------------------------------
+        ############################################################### Front Image ##################################
     -->
 
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1 style="font-size:70px">Turist în România</h1>
-            <hr style="width: 70%; color: white;">
-            <p style="font-size: 30px;">O colecție de actracții turistice</p>
-            <a href="Pagini\despre.html" class="butonFront">Află mai multe</a>
+    <div class="hero-image ">
+        <div class="hero-text ">
+            <h1 style="font-size:70px ">Turist în România</h1>
+            <hr style="width: 70%; color: white; ">
+            <p style="font-size: 30px; ">O colecție de actracții turistice</p>
+            <a href="HTML\despre.html " class="butonFront ">Află mai multe</a>
         </div>
     </div>
 
     <!--
-        ------------------------------------------------------------------------------- Front Image --------------------------------------------
+        ############################################################### Front Image ##################################
     -->
 
     <!--
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
+        ############################################################### Galerie ##################################
+        ############################################################### Galerie ##################################
     -->
 
-    <h1 class="pentruNav"> Galerie de obiective turisitice</h1>
-    <nav class="frontNav">
-        <button onclick="myFunctionBuc()" class="butonFront">Afișează din București</button>
-        <button onclick="myFunctionIas()" class="butonFront">Afișează din Iași</button>
-        <button onclick="myFunctionBrv()" class="butonFront">Afișează din Brașov</button>
-        <button onclick="myFunctionTul()" class="butonFront">Afișează din Tulcea</button>
+    <h1 class="pentruNav "> Galerie de obiective turisitice</h1>
+    <nav class="frontNav ">
+        <button onclick="myFunctionBuc() " class="butonFront ">Afișează din București</button>
+        <button onclick="myFunctionIas() " class="butonFront ">Afișează din Iași</button>
+        <button onclick="myFunctionBrv() " class="butonFront ">Afișează din Brașov</button>
+        <button onclick="myFunctionTul() " class="butonFront ">Afișează din Tulcea</button>
     </nav>
 
     <!--
-        ------------------------------------------------------------------------------- Script Galerie --------------------------------------------
+        ############################################################### Script Galerie ##################################
     -->
 
-    <script>
-        function myFunctionBuc() {
-            var x = document.getElementById("Ias");
-            x.style.display = "none";
 
-            var x = document.getElementById("Buc");
-            if (x.style.display === "none") {
-                x.style.display = "grid";
-
-            } else {
-                x.style.display = "grid";
-            }
-        }
-    </script>
-    <script>
-        function myFunctionIas() {
-            var x = document.getElementById("Buc");
-            x.style.display = "none";
-
-            var x = document.getElementById("Ias");
-            if (x.style.display === "none") {
-                x.style.display = "grid";
-
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-    <script>
-        function myFunctionBrv() {
-            var x = document.getElementById("Brv");
-            if (x.style.display === "none") {
-                x.style.display = "grid";
-
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-    <script>
-        function myFunctionTul() {
-            var x = document.getElementById("Tul");
-            if (x.style.display === "none") {
-                x.style.display = "grid";
-
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
+    <script type="text/javascript" src="JavaScript\\galerie.js"></script>
 
     <!--
-        ------------------------------------------------------------------------------- Script Galerie --------------------------------------------
+        ############################################################### Script Galerie ##################################
     -->
 
-    <div class="grid-container" id="Buc" style="display: grid;">
-        <div class="grid-item">
+    <!--
+        ############################################################### Imagini Galerie ##################################
+    -->
+
+    <div class="grid-container " id="Buc" style="display: grid; ">
+        <div class="grid-item ">
             <figure>
-                <img src="poze\front2.jpg" alt="Palatul-Parlamentului" width="420" height="320">
-                <figcaption class="figCaption">Imagine diurnă, frontală </figcaption>
+                <img src="poze\front2.jpg " alt="Palatul-Parlamentului " width="420 " height="320 ">
+                <figcaption class="figCaption ">Imagine diurnă, frontală </figcaption>
             </figure>
         </div>
-        <div class="grid-item">
+        <div class="grid-item ">
             <figure>
-                <img src="poze\front3.jpg" alt="Palatul-Parlamentului" width="420" height="320">
-                <figcaption class="figCaption">Clădirea, văzută nocturn</figcaption>
+                <img src="poze\front3.jpg " alt="Palatul-Parlamentului " width="420 " height="320 ">
+                <figcaption class="figCaption ">Clădirea, văzută nocturn</figcaption>
             </figure>
         </div>
-        <div class="grid-item">
+        <div class="grid-item ">
             <figure>
-                <img src="poze\front.jpg" alt="Centrul-Vechi" width="420" height="320">
-                <figcaption class="figCaption">Centrul vechi</figcaption>
+                <img src="poze\front.jpg " alt="Centrul-Vechi " width="420 " height="320 ">
+                <figcaption class="figCaption ">Centrul vechi</figcaption>
             </figure>
         </div>
     </div>
 
-    <div class="grid-container" id="Ias" style="display: none;">
-        <div class="grid-item">
+    <div class="grid-container " id="Ias" style="display: none; ">
+        <div class="grid-item ">
             <figure>
-                <img src="poze\front.jpg" alt="" width="420" height="320">
-                <figcaption class="figCaption"> </figcaption>
+                <img src="poze\front.jpg " alt=" " width="420 " height="320 ">
+                <figcaption class="figCaption "> </figcaption>
             </figure>
         </div>
-        <div class="grid-item">
+        <div class="grid-item ">
             <figure>
-                <img src="poze\" alt="" width="420" height="320">
-                <figcaption class="figCaption"> </figcaption>
+                <img src="poze\ " alt=" " width="420 " height="320 ">
+                <figcaption class="figCaption "> </figcaption>
             </figure>
         </div>
-        <div class="grid-item">
+        <div class="grid-item ">
             <figure>
-                <img src="poze\" alt="" width="420" height="320">
-                <figcaption class="figCaption"> </figcaption>
+                <img src="poze\ " alt=" " width="420 " height="320 ">
+                <figcaption class="figCaption "> </figcaption>
             </figure>
         </div>
     </div>
 
-    <script>
-    </script>
+    <!--
+        ############################################################### Imagini Galerie ##################################
+    -->
 
     <!--
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
-        ------------------------------------------------------------------------------- Galerie --------------------------------------------
+        ############################################################### Galerie ##################################
+        ############################################################### Galerie ##################################
     -->
 
     <section>
@@ -207,27 +160,27 @@
     </div>
 
     <!--
-        ------------------------------------------------------------------------------- Footer --------------------------------------------
+        ############################################################### Footer ##################################
     -->
 
-    <footer class="footer-distributed">
-        <div class="footer-right">
+    <footer class="footer-distributed ">
+        <div class="footer-right ">
 
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="# "><i class="fa fa-facebook "></i></a>
+            <a href="# "><i class="fa fa-twitter "></i></a>
+            <a href="# "><i class="fa fa-linkedin "></i></a>
+            <a href="# "><i class="fa fa-github "></i></a>
 
         </div>
 
-        <div class="footer-left">
+        <div class="footer-left ">
 
-            <p class="footer-links">
-                <a href="#">Acasa</a> ·
-                <a href="#">Contact</a> ·
-                <a href="#">Despre</a> ·
-                <a href="#">Galerie</a> ·
-                <a href="#">Contul meu</a> ·
+            <p class="footer-links ">
+                <a href="# ">Acasa</a> ·
+                <a href="# ">Contact</a> ·
+                <a href="# ">Despre</a> ·
+                <a href="# ">Galerie</a> ·
+                <a href="# ">Contul meu</a> ·
             </p>
 
             <p>Turist în România &copy; 2019</p>
@@ -235,7 +188,7 @@
     </footer>
 
     <!--
-        ------------------------------------------------------------------------------- Footer --------------------------------------------
+        ############################################################### Footer ##################################
     -->
 </body>
 
