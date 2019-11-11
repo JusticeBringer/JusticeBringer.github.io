@@ -25,15 +25,27 @@
         ------------------------------------------------------------------------------- Header --------------------------------------------
     -->
 
+
+
     <header>
         <div class="header">
-            <a href="..\index.html" class="logo">Turist în România</a>
-            <div class="header-right">
-                <a class="active" href="..\index.html">Acasă</a>
-                <a href="..\HTML\contact.html">Contact</a>
-                <a href="..\HTML\despre.html">Despre</a>
-                <a href="..\HTML\galerie.html">Galerie</a>
-                <a href="..\HTML\contulMeu.html">Contul meu</a>
+            <a href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\index.html" class="logo">Turist în România</a>
+            <div class="header-right ">
+                <a class="active " href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\index.html">Acasă</a>
+                <a href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\HTML\contact.html">Contact</a>
+                <a href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\HTML\despre.html">Despre</a>
+                <div class="dropdown">
+                    <button class="dropbtn"> Galerie
+                        <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\HTML\galerie.html">Toată galeria</a>
+                        <a href="#">Din sudul țării</a>
+                        <a href="#">Din nordul țării</a>
+                        <a href="#">Din vestul țării</a>
+                        <a href="#">Din estul țării</a>
+                    </div>
+                </div>
+                <a href="C:\Users\gabit\Desktop\Anul 2\Tehnici Web\Proiect\HTML\contulMeu.html">Contul meu</a>
             </div>
         </div>
     </header>
@@ -50,32 +62,69 @@
         ------------------------------------------------------------------------------- Contact --------------------------------------------
     -->
 
-    <div class="container">
-        <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="row">
+        <div class="column contactImage">
+            <img src="..\Pictures\contactImage.jpg" alt="Mail" height="520" width="520">
+        </div>
+        <div class="column" style="background-color: whitesmoke;">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <input type="submit" value="Submit">
-        </form>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
 
 
     <!--
         ------------------------------------------------------------------------------- Contact --------------------------------------------
     -->
+
+
+    <!--
+        ############################################################### Footer ##################################
+    -->
+
+    <footer class="footer-distributed ">
+        <div class="footer-right ">
+
+            <a href="# "><i class="fa fa-facebook "></i></a>
+            <a href="# "><i class="fa fa-twitter "></i></a>
+            <a href="# "><i class="fa fa-linkedin "></i></a>
+            <a href="# "><i class="fa fa-github "></i></a>
+
+        </div>
+
+        <div class="footer-left ">
+
+            <p class="footer-links ">
+                <a href="# ">Acasa</a> ·
+                <a href="# ">Contact</a> ·
+                <a href="# ">Despre</a> ·
+                <a href="# ">Galerie</a> ·
+                <a href="# ">Contul meu</a> ·
+            </p>
+
+            <p>Turist în România &copy; 2019</p>
+        </div>
+    </footer>
+
+    <!--
+        ############################################################### Footer ##################################
 
 </body>
 

@@ -109,3 +109,39 @@ section {
     padding-bottom: 120px;
     padding-left: 10px;
 }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contactImage {
+    text-align: center;
+    background-color: rgb(200, 223, 224);
+}
+
+.pentruDespre {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.pentruDespre h2 {
+    text-align: center;
+}
+
+.pentruDespre p {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 2px;
+}
