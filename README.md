@@ -1,5 +1,4 @@
-# turist-in-romania
-Old website was: https://justicebringer.github.io/turist-in-romania/
+# Turist in Romania
 
 ## About this site
 Current site is about Romania tourist atractions
