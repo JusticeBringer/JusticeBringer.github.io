@@ -1,4 +1,4 @@
 # Turist in Romania
 
 ## About this site
-Current site is about Romania tourist atractions
+An abandoned mini-project about Romania tourist atractions
